@@ -13,22 +13,30 @@ theme = 'hermit'
     name = "github"
     url = "https://github.com/mkacki98"
 
+[author]
+  name = "Mikołaj Kącki"
 
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
+
   homeSubtitle = "AI developer"
 
 [menu]
 
+   [[menu.main]]
+    name = "About"
+    url = "about-me/"
+    weight = 1
+
   [[menu.main]]
     name = "Posts"
     url = "posts/"
-    weight = 10
+    weight = 2
 
-  [[menu.main]]
-    name = "About"
-    url = "about-me/"
-    weight = 20
+ [[menu.main]]
+    name = "Gallery"
+    url = "gallery/"
+    weight = 3
