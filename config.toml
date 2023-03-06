@@ -1,5 +1,33 @@
 baseURL = 'https://shimmering-croissant-d98c95.netlify.app/'
 languageCode = 'en-us'
-title = 'My New Hugo Site after change of address'
+title = "Mikołaj Kącki"
 
 theme = 'hermit'
+
+
+[[params.social]]
+    name = "instagram"
+    url = "https://instagram.com/miko_kacki"
+
+[[params.social]]
+    name = "github"
+    url = "https://github.com/mkacki98"
+
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "about-me/"
+    weight = 20
