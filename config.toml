@@ -13,6 +13,10 @@ theme = 'hermit'
     name = "github"
     url = "https://github.com/mkacki98"
 
+[[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/mikolaj-kacki/"
+
 [author]
   name = "Mikołaj Kącki"
 
